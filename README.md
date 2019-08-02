@@ -39,9 +39,13 @@ decorator, 상속, constructor, 접근 지정자
 class App extend Parent{
   
     @Output() eventEmitter: any;
+    
       // 멤버 변수에도 데코레이터 사용 가능
+      
     constructor(private http: HttpClient) {
+    
       // 접근 지정자를 통해 자동으로 매개변수를 통해 멤버 변수에 값 할당  
+      
     }
 
 }
