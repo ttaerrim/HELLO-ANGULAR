@@ -53,5 +53,6 @@ class App extend Parent{
 
 component 생성
 ```cli
-ng generate component header
+ng generate component componentname
+ng g c componentname
 ```
